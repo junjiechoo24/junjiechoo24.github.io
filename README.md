@@ -9,9 +9,10 @@ Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientif
 
 Many probabilistic models introduce strong dependencies between variables using a latent multivariate Gaussian distribution or a Gaussian process. We present a new Markov chain Monte Carlo algorithm for performing inference in models with multivariate Gaussian priors. Its key properties are:
 
-it has simple, generic code applicable to many models,
-it has no free parameters,
-it works well for a variety of Gaussian process based models.
+1. it has simple, generic code applicable to many models,
+2. it has no free parameters,
+3. it works well for a variety of Gaussian process based models.
+
 These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
 
 # Project 3: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
