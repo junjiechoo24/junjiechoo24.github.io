@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Choo Jun Jie's Portfolio
 
-You can use the [editor on GitHub](https://github.com/junjiechoo24/junjiechoo24.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Project 1: [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
 
-### Markdown
+Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Project 2: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
-```markdown
-Syntax highlighted code block
+Many probabilistic models introduce strong dependencies between variables using a latent multivariate Gaussian distribution or a Gaussian process. We present a new Markov chain Monte Carlo algorithm for performing inference in models with multivariate Gaussian priors. Its key properties are:
 
-# Header 1
-## Header 2
-### Header 3
+it has simple, generic code applicable to many models,
+it has no free parameters,
+it works well for a variety of Gaussian process based models.
+These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
 
-- Bulleted
-- List
+# Project 3: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
-1. Numbered
-2. List
+The data set is the Capital Bikeshare data set, from https://www.capitalbikeshare.com/system-data. This data comes from Washington D.C.’s bikeshare program, which records every individual ride taken. Each ride is tagged with its start and end time, start and end station (there are hundreds of locations where bikes can be rented across the city), as well as whether the rider has bought a one-time rental or is a member of the bikeshare program.
 
-**Bold** and _Italic_ and `Code` text
+A script named getdata_bikeshare.R is used to download and clean the data so that it’s ready for R and organized in a simple format.
 
-[Link](url) and ![Image](src)
-```
+The following question was studied: Can any routes be detected (i.e., a particular combination of start & end station) where the average time it takes to travel the route, changes over the course of the time period? For example, if a bike lane is added to a major road, this may reduce the travel time for that particular route.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Methodology:
 
-### Jekyll Themes
+Cluster the data by route, and run a linear model on confounders only, i.e. Days since Jan1 2010 is not part of the model.
+Within each cluster, use the residuals for permutation test, but group the residuals by day and permute the groups instead of the individual residuals, in order to account for the dependency of data belonging to the same day.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/junjiechoo24/junjiechoo24.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Project 4: [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
 
-### Support or Contact
+The paper critiqued was “Lung cancer incidence decreases with elevation: evidence for oxygen as an inhaled carcinogen”, Simeonov & Himmelstein, PeerJ 2015 https://peerj.com/articles/705/
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The statistical analyses performed in the paper was critiqued from the point of view of multiple testing and replicability. The validity of the conclusions was also assessed from a statistician’s point of view
+
+Some ideas are: thinking about possible confounding variables, whether the data collected is representative of the claim being made, etc.
+
+
