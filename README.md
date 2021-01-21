@@ -36,4 +36,8 @@ The statistical analyses performed in the paper was critiqued from the point of 
 
 Some ideas are: thinking about possible confounding variables, whether the data collected is representative of the claim being made, etc.
 
+# Report 1: [Data Analysis for Titansoft Technical Interview](https://github.com/junjiechoo24/reports/tree/titansoft)
+
+This is my report to a technical interview for a data analyst role at Titansoft. Models used were Logistic regression and negative binomial model.
+
 
