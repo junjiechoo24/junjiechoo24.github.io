@@ -45,7 +45,7 @@ Some ideas are: thinking about possible confounding variables, whether the data 
 Background: People are sharing Figure 1 on twitter where the figure comes from this report: https://medium.com/
 @andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
 
-![Figure](https://imgur.com/a/UezBBsM)
+![Figure](https://i.imgur.com/JsbZFoK.png)
 
 This figure compares between Italy and South Korea. It catches people’s eyes because this may show that there can be a lot of infected young people in Italy that are missed as they show no or mild symptoms, and they may spread the virus to others unconsciously. As pointed out in the source report, Italy has predominantly been testing people with symptoms of a coronavirus infection, while South Korea has been testing basically everyone since the outbreak had become apparent. Consequently, South Korea has detected more asymptomatic, but positive cases of coronavirus than Italy, in particular among young people.
 
