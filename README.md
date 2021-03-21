@@ -5,11 +5,17 @@
 Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method that is able to effectively sample high dimensional target distributions by using Hamilton’s equations to design a proposal mechanism that exploits the target geometry. However, HMC’s performance is highly sensitive to tuning parameters. The No-U-Turn
 Sampler (NUTS) eliminates the need to hand-tune parameters, whilst showing a competitive performance when compared with a well tuned vanilla HMC. This thesis will provide a background introduction to HMC and describe in detail the NUTS algorithm. Several numerical simulations will illustrate the flexibility of the NUTS algorithm and its practical advantage over vanilla HMC.
 
-# Project 1: [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
+# Project 1: [Comparing Neural Networks with K-Nearest Neighbours and Decision Tree Models](https://github.com/junjiechoo24/projects/tree/main/NN-KNN-DT)
+
+In this project, we'll explore the effectiveness of deep, feedforward neural networks at classifying images, we'll gradually build a neural network by adding hidden layers and by testing with differents models. Train, test, and improve a few different deep neural networks for image classification. We will also compare neural networks with K-NearestNeighbours and Decision Tree models.
+
+Scikit-learn contains a number of datasets pre-loaded with the library, within the namespace of sklearn.datasets. The load_digits() function returns a copy of the hand-written digits dataset from UCI.
+
+# Project 2: [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
 
 Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
 
-# Project 2: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
+# Project 3: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
 Many probabilistic models introduce strong dependencies between variables using a latent multivariate Gaussian distribution or a Gaussian process. We present a new Markov chain Monte Carlo algorithm for performing inference in models with multivariate Gaussian priors. Its key properties are:
 
@@ -19,7 +25,7 @@ Many probabilistic models introduce strong dependencies between variables using 
 
 These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
 
-# Project 3: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
+# Project 4: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
 The data set is the Capital Bikeshare data set, from https://www.capitalbikeshare.com/system-data. This data comes from Washington D.C.’s bikeshare program, which records every individual ride taken. Each ride is tagged with its start and end time, start and end station (there are hundreds of locations where bikes can be rented across the city), as well as whether the rider has bought a one-time rental or is a member of the bikeshare program.
 
