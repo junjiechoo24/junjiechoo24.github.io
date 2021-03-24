@@ -42,7 +42,7 @@ Methodology:
 Cluster the data by route, and run a linear model on confounders only, i.e. Days since Jan1 2010 is not part of the model.
 Within each cluster, use the residuals for permutation test, but group the residuals by day and permute the groups instead of the individual residuals, in order to account for the dependency of data belonging to the same day.
 
-# Project 4: [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
+# Project 5: [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
 
 The paper critiqued was “Lung cancer incidence decreases with elevation: evidence for oxygen as an inhaled carcinogen”, Simeonov & Himmelstein, PeerJ 2015 https://peerj.com/articles/705/
 
@@ -50,7 +50,7 @@ The statistical analyses performed in the paper was critiqued from the point of 
 
 Some ideas are: thinking about possible confounding variables, whether the data collected is representative of the claim being made, etc.
 
-# Project 5: [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
+# Project 6: [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
 
 Background: People are sharing Figure 1 on twitter where the figure comes from this report: https://medium.com/
 @andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
