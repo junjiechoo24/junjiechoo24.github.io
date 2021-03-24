@@ -2,7 +2,7 @@
 
 # Data Visualisation Project 1: [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid)
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ylWDpoVeQwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="315" src="https://www.youtube.com/embed/ylWDpoVeQwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Thesis: [Hamiltonian Monte Carlo and No-U-Turn Sampler](https://github.com/junjiechoo24/projects/tree/main/thesis)
 
