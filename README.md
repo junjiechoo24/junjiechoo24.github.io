@@ -1,6 +1,6 @@
 # Choo Jun Jie's Portfolio
 
-<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/5657542"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 # Thesis: [Hamiltonian Monte Carlo and No-U-Turn Sampler](https://github.com/junjiechoo24/projects/tree/main/thesis)
 
