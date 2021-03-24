@@ -1,6 +1,6 @@
 # Choo Jun Jie's Portfolio
 
-
+<iframe width="1691" height="625" src="https://www.youtube.com/embed/ylWDpoVeQwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Thesis: [Hamiltonian Monte Carlo and No-U-Turn Sampler](https://github.com/junjiechoo24/projects/tree/main/thesis)
 
