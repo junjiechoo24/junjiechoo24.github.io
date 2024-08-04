@@ -4,8 +4,6 @@
 
 I used a public Covid-19 dataset to create a bar chart visualisation of the top 20 countries in total Covid-19 cases at any given date from January 2020 to March 2021.
 
-<iframe width="640" height="315" src="https://www.youtube.com/embed/ylWDpoVeQwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 [![YouTube Video](https://img.youtube.com/vi/ylWDpoVeQwQ/0.jpg)](https://www.youtube.com/watch?v=ylWDpoVeQwQ)
 
 
