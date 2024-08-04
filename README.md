@@ -25,7 +25,9 @@ You can watch the videos below on YouTube:
 
 ## Project Overview
 
-The Discord bot project is designed to automate the extraction of image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could have been used instead of Docker, but the project aimed to explore Docker's capabilities as well. The project includes the following key components:
+The Discord bot project is designed to automate the extraction of image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could have been used instead of Docker, but the project aimed to explore Docker's capabilities as well. 
+
+The primary goal of this project is to gather win/lose results of PvP matches in the game Blue Archive from Discord channels. The aim is to analyze winning and losing compositions to find the best PvP composition for every situation. The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability. The project includes the following key components:
 
 ### Trigger Mechanism
 - **Google Cloud Scheduler**: Used to schedule tasks and trigger a message to Google Pub/Sub at specified intervals.
@@ -44,7 +46,8 @@ The Discord bot project is designed to automate the extraction of image data fro
 - **Google BigQuery**: The extracted text data is then integrated into Google BigQuery for structured analysis and reporting.
 
 ### Monitoring
-- The bot logs and monitors processing jobs, tracking the success or failure of each job. Occasionally, image processing might fail, which is why it's important to track errors. The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability.
+- The bot logs and monitors processing jobs, tracking the success or failure of each job. Occasionally, image processing might fail, which is why it's important to track errors.
+
 
 
 
