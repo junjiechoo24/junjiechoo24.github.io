@@ -2,7 +2,7 @@
 
 # Training an AI model to sing!
 
-Check out my project on training an AI model to sing! You can watch the videos below:
+Check out my project on training an AI model to sing! You can watch the videos below on youtube:
 
 [![Even if it's your happiness](https://img.youtube.com/vi/s3YMQLCWBCo/0.jpg)](https://youtu.be/s3YMQLCWBCo)
 [![Ito](https://img.youtube.com/vi/g-c0-T3GBJwJ/0.jpg)](https://youtu.be/g-c0-T3GBJwJ)
