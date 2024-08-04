@@ -2,13 +2,11 @@
 
 # Training an AI model to sing!
 
-Check out my project on training an AI model to sing! You can watch the videos below on youtube:
+Check out my project on training an AI model to sing! You can watch the videos below on Youtube:
 
 [![Even if it's your happiness](https://img.youtube.com/vi/s3YMQLCWBCo/0.jpg)](https://youtu.be/s3YMQLCWBCo)
-[![Ito](https://img.youtube.com/vi/g-c0-T3GBJwJ/0.jpg)]([https://youtu.be/g-c0-T3GBJwJ](https://youtu.be/g-c0-T3GBJw))
 [![Yume to Hazakura](https://img.youtube.com/vi/OZf5fQgSmwE/0.jpg)](https://youtu.be/OZf5fQgSmwE)
-
-
+[![Ito](https://img.youtube.com/vi/g-c0-T3GBJw/0.jpg)](https://youtu.be/g-c0-T3GBJw)
 
 
 # [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid))
