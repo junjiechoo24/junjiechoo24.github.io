@@ -4,11 +4,12 @@
 
 Check out my project on training an AI model to sing! You can watch the videos below on YouTube:
 
-### Yume to Hazakura
-[![Even if it's your happiness](https://img.youtube.com/vi/s3YMQLCWBCo/0.jpg)](https://youtu.be/s3YMQLCWBCo)
-
 ### Even if it's your happiness
-[![Yume to Hazakura](https://img.youtube.com/vi/OZf5fQgSmwE/0.jpg)](https://youtu.be/OZf5fQgSmwE)
+[![Even if it's your happiness](https://img.youtube.com/vi/dAj5I4rhsZc/0.jpg)](https://youtu.be/dAj5I4rhsZc)
+
+### Yume to Hazakura
+[![Yume to Hazakura](https://img.youtube.com/vi/DQyZHKgjF34/0.jpg)](https://youtu.be/DQyZHKgjF34)
+
 
 ---
 <br><br> <!-- Adding additional spacing -->
