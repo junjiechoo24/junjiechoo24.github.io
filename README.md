@@ -11,8 +11,6 @@ Check out my project on training an AI model to sing! You can watch the videos b
 [![Yume to Hazakura](https://img.youtube.com/vi/DQyZHKgjF34/0.jpg)](https://youtu.be/DQyZHKgjF34)
 
 ## More details:
-In this project, I leveraged the So-VITS model to transform isolated voice samples from game files into musical performances. The process involved training the model on these voice samples, then using audio analysis techniques to separate target songs into instrumental and voice tracks for inferencing, before blending the song's instrumentals and newly inferenced voice tracks again for the full song
-
 **Model Training:** Trained the So-VITS model using isolated voice recordings of the character Noa extracted from Blue Archive game files.
 
 **Audio Analysis:** Separated target song audio into vocal and instrumental tracks using techniques like spectral analysis and source separation.
