@@ -1,13 +1,21 @@
 # Choo Jun Jie's Portfolio
 
-# Training an AI model to sing!
+# Training an AI Model to Sing!
 
-Check out my project on training an AI model to sing! You can watch the videos below on Youtube:
+Check out my project on training an AI model to sing! You can watch the videos below on YouTube:
 
+### Even if it's your happiness
 [![Even if it's your happiness](https://img.youtube.com/vi/s3YMQLCWBCo/0.jpg)](https://youtu.be/s3YMQLCWBCo)
-[![Yume to Hazakura](https://img.youtube.com/vi/OZf5fQgSmwE/0.jpg)](https://youtu.be/OZf5fQgSmwE)[Song title](https://youtu.be/s3YMQLCWBCo)
+
+### Yume to Hazakura
+[![Yume to Hazakura](https://img.youtube.com/vi/OZf5fQgSmwE/0.jpg)](https://youtu.be/OZf5fQgSmwE)
+
+### Ito
 [![Ito](https://img.youtube.com/vi/g-c0-T3GBJw/0.jpg)](https://youtu.be/g-c0-T3GBJw)
+
+### Orange
 [![Orange](https://img.youtube.com/vi/8JHjc6g6ijs/0.jpg)](https://youtu.be/8JHjc6g6ijs)
+
 
 
 # [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid))
