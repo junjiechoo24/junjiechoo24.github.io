@@ -49,7 +49,7 @@ If Italy has missed a lot of younger patients who have no or milder symptoms, we
 
 Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
 
-### Skills: Monte Carlo
+### Skills: Monte Carlo algorithms
 
 # Project 4: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
@@ -61,7 +61,7 @@ Many probabilistic models introduce strong dependencies between variables using 
 
 These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
 
-### Skills: Statistical modelling
+### Skills: R, Statistical modelling algorithms
 
 # Project 5: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
@@ -76,6 +76,8 @@ Methodology:
 Cluster the data by route, and run a linear model on confounders only, i.e. Days since Jan1 2010 is not part of the model.
 Within each cluster, use the residuals for permutation test, but group the residuals by day and permute the groups instead of the individual residuals, in order to account for the dependency of data belonging to the same day.
 
+### Skills: R, Data analysis
+
 # Project 6: [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
 
 The paper critiqued was “Lung cancer incidence decreases with elevation: evidence for oxygen as an inhaled carcinogen”, Simeonov & Himmelstein, PeerJ 2015 https://peerj.com/articles/705/
@@ -84,10 +86,8 @@ The statistical analyses performed in the paper was critiqued from the point of 
 
 Some ideas are: thinking about possible confounding variables, whether the data collected is representative of the claim being made, etc.
 
+### Skills: Data analysis
 
 
-# Report 1: [Data Analysis for Titansoft Technical Interview](https://github.com/junjiechoo24/reports/tree/titansoft)
-
-This is my report to a technical interview for a data analyst role at Titansoft. Models used were Logistic regression and negative binomial model.
 
 
