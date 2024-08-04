@@ -56,7 +56,7 @@ The OCR process can often be improved with better preprocessing steps to enhance
 - **Real-Time Processing**: To enhance the system further, future experiments could involve using Google Pub/Sub to process and extract data from images in real-time as they are posted to Discord.
 
 
-
+### Skills: Python, GCP (Google Pub/Sub, Cloud Scheduler, BigQuery), Docker, OCR
 
 
 
@@ -71,6 +71,8 @@ I used a public Covid-19 dataset to create a bar chart visualisation of the top 
 
 [![YouTube Video](https://img.youtube.com/vi/ylWDpoVeQwQ/0.jpg)](https://www.youtube.com/watch?v=ylWDpoVeQwQ)
 
+---
+<br><br> <!-- Adding additional spacing -->
 
 
 
@@ -83,6 +85,8 @@ Sampler (NUTS) eliminates the need to hand-tune parameters, whilst showing a com
 
 ### Skills: R, Julia, Monte Carlo
 
+---
+<br><br> <!-- Adding additional spacing -->
 
 
 # [Comparing Neural Networks with K-Nearest Neighbours and Decision Tree Models](https://github.com/junjiechoo24/projects/tree/main/NN-KNN-DT)
@@ -94,6 +98,9 @@ In this project, we'll explore the effectiveness of deep, feedforward neural net
 Conclusion: Deep learning is effective in image classification because of the models' ability to learn hierarchical representations. At a high level, an effective deep learning model learns intermediate representations at each layer in the model and uses them in the prediction process.
 
 ### Skills: Python, Deep Learning, Machine Learning
+
+---
+<br><br> <!-- Adding additional spacing -->
 
 # [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
 
@@ -110,12 +117,18 @@ If Italy has missed a lot of younger patients who have no or milder symptoms, we
 
 ### Skills: R, Generalised Linear Models
 
+---
+<br><br> <!-- Adding additional spacing -->
+
 
 # [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
 
 Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
 
 ### Skills: Monte Carlo algorithms
+
+---
+<br><br> <!-- Adding additional spacing -->
 
 # [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
@@ -128,6 +141,9 @@ Many probabilistic models introduce strong dependencies between variables using 
 These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
 
 ### Skills: R, Statistical modelling algorithms
+
+---
+<br><br> <!-- Adding additional spacing -->
 
 # [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
@@ -143,6 +159,9 @@ Cluster the data by route, and run a linear model on confounders only, i.e. Days
 Within each cluster, use the residuals for permutation test, but group the residuals by day and permute the groups instead of the individual residuals, in order to account for the dependency of data belonging to the same day.
 
 ### Skills: R, Data analysis
+
+---
+<br><br> <!-- Adding additional spacing -->
 
 # [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
 
