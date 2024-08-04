@@ -6,6 +6,10 @@ I used a public Covid-19 dataset to create a bar chart visualisation of the top 
 
 <iframe width="640" height="315" src="https://www.youtube.com/embed/ylWDpoVeQwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![YouTube Video](https://img.youtube.com/vi/ylWDpoVeQwQ/0.jpg)](https://www.youtube.com/watch?v=ylWDpoVeQwQ)
+
+
+
 # Thesis: [Hamiltonian Monte Carlo and No-U-Turn Sampler](https://github.com/junjiechoo24/projects/tree/main/thesis)
 
 ![Figure](https://i.imgur.com/TCeTApe.gif)
