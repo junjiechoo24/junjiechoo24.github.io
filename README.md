@@ -6,7 +6,7 @@
 
 In this project, I leveraged the So-VITS model to transform isolated voice samples of the character Noa from Blue Archive into musical performances. The process involved training the model on these voice samples, then using audio analysis techniques to separate target songs into instrumental and voice tracks for inferencing, before blending the song's instrumentals and newly inferenced voice tracks again for the full song!
 
-You can watch the videos below on YouTube:
+You can have a listen to the AI generated songs below on YouTube:
 
 ### [Even if it's your happiness](https://youtu.be/dAj5I4rhsZc)
 [![Even if it's your happiness](https://img.youtube.com/vi/dAj5I4rhsZc/0.jpg)](https://youtu.be/dAj5I4rhsZc)
