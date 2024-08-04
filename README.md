@@ -1,6 +1,6 @@
 # Choo Jun Jie's Portfolio
 
-# Data Visualisation Project 1: [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid)
+# [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid)
 
 I used a public Covid-19 dataset to create a bar chart visualisation of the top 20 countries in total Covid-19 cases at any given date from January 2020 to March 2021.
 
@@ -19,7 +19,7 @@ Sampler (NUTS) eliminates the need to hand-tune parameters, whilst showing a com
 
 
 
-# Project 1: [Comparing Neural Networks with K-Nearest Neighbours and Decision Tree Models](https://github.com/junjiechoo24/projects/tree/main/NN-KNN-DT)
+# [Comparing Neural Networks with K-Nearest Neighbours and Decision Tree Models](https://github.com/junjiechoo24/projects/tree/main/NN-KNN-DT)
 
 ![Figure](https://i.imgur.com/xoY10Zc.png)
 
@@ -29,7 +29,7 @@ Conclusion: Deep learning is effective in image classification because of the mo
 
 ### Skills: Python, Deep Learning, Machine Learning
 
-# Project 2: [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
+# [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
 
 Background: People are sharing Figure 1 on twitter where the figure comes from this report: https://medium.com/
 @andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
@@ -45,13 +45,13 @@ If Italy has missed a lot of younger patients who have no or milder symptoms, we
 ### Skills: R, Generalised Linear Models
 
 
-# Project 3: [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
+# [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
 
 Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
 
 ### Skills: Monte Carlo algorithms
 
-# Project 4: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
+# [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
 Many probabilistic models introduce strong dependencies between variables using a latent multivariate Gaussian distribution or a Gaussian process. We present a new Markov chain Monte Carlo algorithm for performing inference in models with multivariate Gaussian priors. Its key properties are:
 
@@ -63,7 +63,7 @@ These properties make our method ideal for use while model building, removing th
 
 ### Skills: R, Statistical modelling algorithms
 
-# Project 5: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
+# [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
 The data set is the Capital Bikeshare data set, from https://www.capitalbikeshare.com/system-data. This data comes from Washington D.C.’s bikeshare program, which records every individual ride taken. Each ride is tagged with its start and end time, start and end station (there are hundreds of locations where bikes can be rented across the city), as well as whether the rider has bought a one-time rental or is a member of the bikeshare program.
 
@@ -78,7 +78,7 @@ Within each cluster, use the residuals for permutation test, but group the resid
 
 ### Skills: R, Data analysis
 
-# Project 6: [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
+# [Real Data Analysis Critique](https://github.com/junjiechoo24/projects)
 
 The paper critiqued was “Lung cancer incidence decreases with elevation: evidence for oxygen as an inhaled carcinogen”, Simeonov & Himmelstein, PeerJ 2015 https://peerj.com/articles/705/
 
