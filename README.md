@@ -1,5 +1,7 @@
 # Choo Jun Jie's Portfolio
 
+
+
 # Training an AI Model to Sing!
 
 In this project, I leveraged the So-VITS model to transform isolated voice samples of the character Noa from Blue Archive into musical performances. The process involved training the model on these voice samples, then using audio analysis techniques to separate target songs into instrumental and voice tracks for inferencing, before blending the song's instrumentals and newly inferenced voice tracks again for the full song!
@@ -18,6 +20,34 @@ You can watch the videos below on YouTube:
 
 ---
 <br><br> <!-- Adding additional spacing -->
+
+# Discord Bot Project
+
+## Project Overview
+
+The Discord bot project automates the extraction and processing of image data from specified Discord channels. It uses Optical Character Recognition (OCR) to extract text from images and stores the resulting data in Google BigQuery. The project includes the following key components:
+
+### Daily Batch Processing
+- The bot scans and processes image attachments from specified Discord channels on a daily basis, ensuring that recent data is always captured and ready for analysis.
+
+### Image Processing
+- **Preprocessing**: Images are resized, converted to grayscale, and thresholded to enhance OCR performance. This preprocessing step improves the clarity of the images and makes the text extraction more accurate.
+
+### Data Storage
+- **Google Cloud Storage**: Processed images and their associated metadata are uploaded to Google Cloud Storage.
+- **Google BigQuery**: The extracted text data is then integrated into Google BigQuery for structured analysis and reporting.
+
+### Monitoring
+- The bot logs and monitors processing jobs, tracking the success or failure of each job. It handles errors and exceptions as they occur, ensuring that any issues are promptly addressed.
+
+## Docker Deployment and Google Pub/Sub Integration
+
+As part of the project, Docker was used to containerize the bot for consistent deployment on Google Cloud Platform (GCP). Additionally, Google Pub/Sub was experimented with to trigger the Docker container, facilitating automated and scalable data processing.
+
+
+---
+<br><br> <!-- Adding additional spacing -->
+
 
 # Total Covid-19 Cases by Country (Updated: 24 March 2021)
 
