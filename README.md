@@ -1,6 +1,8 @@
 # Jun Jie's Portfolio/Random Side Projects
 
+Welcome to my collection of random projects and side ventures that have piqued my interest. Each project represents a unique exploration or experimentation in various domains. If you see a title in blue, it’s clickable and will redirect you to the corresponding GitHub repository for more details.
 
+I hope you enjoy your stay!
 
 # Training an AI Model to Sing!
 
