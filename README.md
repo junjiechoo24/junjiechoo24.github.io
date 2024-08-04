@@ -24,7 +24,7 @@ You can have a listen to the AI generated songs below on YouTube:
 <br><br> <!-- Adding additional spacing -->
 
 
-# [GCP Project to Monitor and Manage Personal Stock Portfolio](https://github.com/junjiechoo24/finance_portfolio)
+# [GCP Project to Analyse PvP match Results for Blue Archive](https://github.com/junjiechoo24/discord_bot_pvp)
 
 ![Blue Archive PvP Analysis](https://drive.google.com/uc?id=11LgIJYlc79NX8gjipqzLADvb9pt6uNk2)
 
@@ -65,7 +65,7 @@ The OCR process can often be improved with better preprocessing steps to enhance
 ---
 <br><br> <!-- Adding additional spacing -->
 
-# [GCP Project to Monitor and Manage Personal Stock Portfolio](https://github.com/junjiechoo24/financial-portfolio-monitor)
+# [GCP Project to Monitor and Manage Personal Stock Portfolio](https://github.com/junjiechoo24/finance_portfolio)
 
 <img src="https://github.com/junjiechoo24/finance_portfolio/blob/main/d4d61301-6e63-4bf7-8466-1815cdde8d67.jpg" alt="Financial Portfolio Management" width="600"/>
 
