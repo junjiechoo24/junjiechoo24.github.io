@@ -1,4 +1,4 @@
-# Choo Jun Jie's Portfolio
+# Jun Jie's Portfolio/Random Side Projects
 
 
 
