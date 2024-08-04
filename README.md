@@ -22,7 +22,7 @@ You can watch the videos below on YouTube:
 <br><br> <!-- Adding additional spacing -->
 
 
-# GCP Project to analyse PvP match results for Blue Archive
+# [GCP Project to analyse PvP match results for Blue Archive](https://github.com/junjiechoo24/discord_bot_pvp/tree/master)
 
 ![Blue Archive PvP Analysis](https://drive.google.com/uc?id=11LgIJYlc79NX8gjipqzLADvb9pt6uNk2)
 
