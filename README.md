@@ -25,13 +25,14 @@ You can watch the videos below on YouTube:
 
 ## Project Overview
 
-The Discord bot project automates the extraction and processing of image data from specified Discord channels. It uses Optical Character Recognition (OCR) to extract text from images and stores the resulting data in Google BigQuery. The project includes the following key components:
+The Discord bot project is designed to automate the extraction of image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub, which was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could have been used instead of Docker, but the project aimed to explore Docker's capabilities as well. The project includes the following key components:
 
 ### Daily Batch Processing
 - The bot scans and processes image attachments from specified Discord channels on a daily basis, ensuring that recent data is always captured and ready for analysis.
 
 ### Image Processing
 - **Preprocessing**: Images are resized, converted to grayscale, and thresholded to enhance OCR performance. This preprocessing step improves the clarity of the images and makes the text extraction more accurate.
+- **OCR Extraction**: The preprocessed images are then analyzed using an OCR API to extract text data, which is essential for tracking and analyzing game-related metrics.
 
 ### Data Storage
 - **Google Cloud Storage**: Processed images and their associated metadata are uploaded to Google Cloud Storage.
@@ -39,6 +40,7 @@ The Discord bot project automates the extraction and processing of image data fr
 
 ### Monitoring
 - The bot logs and monitors processing jobs, tracking the success or failure of each job. It handles errors and exceptions as they occur, ensuring that any issues are promptly addressed.
+
 
 ## Docker Deployment and Google Pub/Sub Integration
 
