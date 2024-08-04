@@ -21,13 +21,16 @@ You can watch the videos below on YouTube:
 ---
 <br><br> <!-- Adding additional spacing -->
 
+
 # Discord Bot Project
 
 ## Project Overview
 
-The Discord bot project is designed to automate the extraction of image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could have been used instead of Docker, but the project aimed to explore Docker's capabilities as well. 
+The primary goal of this project is to gather win/lose results of PvP matches in the game Blue Archive that were posted onto Discord. The aim is to analyse winning and losing compositions to find the best PvP composition for every situation in the game.
 
-The primary goal of this project is to gather win/lose results of PvP matches in the game Blue Archive from Discord channels. The aim is to analyze winning and losing compositions to find the best PvP composition for every situation. The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability. The project includes the following key components:
+The Discord bot will extract image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could also have been used instead of Docker, but the project aimed to explore Docker's capabilities as well, despite it being overkill again.
+
+ The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability. The project details are as follows:
 
 ### Trigger Mechanism
 - **Google Cloud Scheduler**: Used to schedule tasks and trigger a message to Google Pub/Sub at specified intervals.
@@ -39,7 +42,7 @@ The primary goal of this project is to gather win/lose results of PvP matches in
 
 ### Image Processing
 - **Preprocessing**: Images are resized, converted to grayscale, and thresholded to enhance OCR performance. This preprocessing step improves the clarity of the images and makes the text extraction more accurate.
-- **OCR Extraction**: The preprocessed images are then analyzed using an OCR API to extract text data, which is essential for tracking and analyzing game-related metrics.
+- **OCR Extraction**: The preprocessed images are then analysed using an OCR API to extract text data, which is essential for tracking and analysing game-related metrics.
 
 ### Data Storage
 - **Google Cloud Storage**: Processed images and their associated metadata are uploaded to Google Cloud Storage.
@@ -47,6 +50,7 @@ The primary goal of this project is to gather win/lose results of PvP matches in
 
 ### Monitoring
 - The bot logs and monitors processing jobs, tracking the success or failure of each job. Occasionally, image processing might fail, which is why it's important to track errors.
+
 
 
 
