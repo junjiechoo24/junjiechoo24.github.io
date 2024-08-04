@@ -17,12 +17,14 @@ Check out my project on training an AI model to sing! You can watch the videos b
 [![Orange](https://img.youtube.com/vi/8JHjc6g6ijs/0.jpg)](https://youtu.be/8JHjc6g6ijs)
 
 
+---
 
-# [Total Covid-19 Cases by Country (Updated: 24 March 2021](https://github.com/junjiechoo24/projects/tree/main/data_visualisation/total_covid))
+# Total Covid-19 Cases by Country (Updated: 24 March 2021)
 
 I used a public Covid-19 dataset to create a bar chart visualisation of the top 20 countries in total Covid-19 cases at any given date from January 2020 to March 2021.
 
 [![YouTube Video](https://img.youtube.com/vi/ylWDpoVeQwQ/0.jpg)](https://www.youtube.com/watch?v=ylWDpoVeQwQ)
+
 
 
 
