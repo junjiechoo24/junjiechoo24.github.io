@@ -11,6 +11,7 @@ Check out my project on training an AI model to sing! You can watch the videos b
 [![Yume to Hazakura](https://img.youtube.com/vi/OZf5fQgSmwE/0.jpg)](https://youtu.be/OZf5fQgSmwE)
 
 ---
+<br><br> <!-- Adding additional spacing -->
 
 # Total Covid-19 Cases by Country (Updated: 24 March 2021)
 
