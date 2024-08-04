@@ -28,9 +28,9 @@ You can watch the videos below on YouTube:
 
 The primary goal of this project is to gather win/lose results of PvP matches in the game Blue Archive that were posted onto Discord. The aim is to analyse winning and losing compositions to find the best PvP composition for every situation in the game.
 
-The Discord bot will extract image data from specified Discord channels, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could also have been used instead of Docker, but the project aimed to explore Docker's capabilities as well, despite it being overkill again.
+The Discord bot will extract image data from specified Discord channels daily, process this data using Optical Character Recognition (OCR), and store the extracted text in Google BigQuery. Deployed on Google Cloud Platform (GCP) using Docker, the project also incorporates Google Cloud Scheduler to trigger the bot via Google Pub/Sub. This setup was used to experiment with these features despite their overkill for this use case. Google Cloud Functions could also have been used instead of Docker, but the project aimed to explore Docker's capabilities as well, despite it being overkill again.
 
- The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability. The project details are as follows:
+The OCR process can often be improved with better preprocessing steps to enhance accuracy and reliability. The project details are as follows:
 
 ### Trigger Mechanism
 - **Google Cloud Scheduler**: Used to schedule tasks and trigger a message to Google Pub/Sub at specified intervals.
@@ -50,6 +50,11 @@ The Discord bot will extract image data from specified Discord channels, process
 
 ### Monitoring
 - The bot logs and monitors processing jobs, tracking the success or failure of each job. Occasionally, image processing might fail, which is why it's important to track errors.
+
+## Possible Future Experimentations
+
+- **Real-Time Processing**: To enhance the system further, future experiments could involve using Google Pub/Sub to process and extract data from images in real-time as they are posted to Discord.
+
 
 
 
