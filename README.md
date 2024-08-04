@@ -17,7 +17,7 @@ You can have a listen to the AI generated songs below on YouTube:
 [![Yume to Hazakura](https://img.youtube.com/vi/DQyZHKgjF34/0.jpg)](https://youtu.be/DQyZHKgjF34)
 
 
-### Skills: Python, Deep Learning
+### Skills: Python, Deep Learning, Audio Analysis
 
 
 ---
