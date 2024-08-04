@@ -27,6 +27,8 @@ In this project, we'll explore the effectiveness of deep, feedforward neural net
 
 Conclusion: Deep learning is effective in image classification because of the models' ability to learn hierarchical representations. At a high level, an effective deep learning model learns intermediate representations at each layer in the model and uses them in the prediction process.
 
+### Skills: Python, Deep Learning, Machine Learning
+
 # Project 2: [Covid-19 Figures Report](https://github.com/junjiechoo24/projects/tree/main/covid)
 
 Background: People are sharing Figure 1 on twitter where the figure comes from this report: https://medium.com/
@@ -40,10 +42,14 @@ However, looking at Figure 1 alone is not enough to get the above conclusion as 
 
 If Italy has missed a lot of younger patients who have no or milder symptoms, we can give an estimate of how many people are actually infected in Italy at this moment using logistic regression.
 
+### Skills: R, Generalised Linear Models
+
 
 # Project 3: [Monte Carlo Convergence Diagnostics Project](https://github.com/junjiechoo24/projects)
 
 Markov chain Monte Carlo (MCMC) is one of the most useful approaches to scientific computing because of its flexible construction, ease of use, and generality. Two critical questions that MCMC practitioners need to address are where to start and when to stop the simulation. Although a great amount of research has gone into establishing convergence criteria and stopping rules with sound theoretical foundation, in practice, MCMC users often decide convergence by applying empirical diagnostic tools. This review article discusses the most widely used MCMC convergence diagnostic tools.
+
+### Skills: Monte Carlo
 
 # Project 4: [Vanilla and Generalised Elliptical Slice Sampling](https://github.com/junjiechoo24/projects)
 
@@ -54,6 +60,8 @@ Many probabilistic models introduce strong dependencies between variables using 
 3. it works well for a variety of Gaussian process based models.
 
 These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.
+
+### Skills: Statistical modelling
 
 # Project 5: [Regression and Permutation Test](https://github.com/junjiechoo24/bikeshare)
 
@@ -75,7 +83,6 @@ The paper critiqued was “Lung cancer incidence decreases with elevation: evide
 The statistical analyses performed in the paper was critiqued from the point of view of multiple testing and replicability. The validity of the conclusions was also assessed from a statistician’s point of view
 
 Some ideas are: thinking about possible confounding variables, whether the data collected is representative of the claim being made, etc.
-
 
 
 
