@@ -68,7 +68,8 @@ The OCR process can often be improved with better preprocessing steps to enhance
 
 # [GCP Project to Monitor and Manage Personal Stock Portfolio](https://github.com/junjiechoo24/finance_portfolio)
 
-<img src="https://github.com/junjiechoo24/finance_portfolio/blob/main/d4d61301-6e63-4bf7-8466-1815cdde8d67.jpg" alt="Financial Portfolio Management" width="600"/>
+<img src="https://raw.githubsercontent.com/junjiechoo24/finance_portfolio/blob/main/d4d61301-6e63-4bf7-8466-1815cdde8d67.jpg" alt="Financial Portfolio Management" width="600"/>
+
 
 ## Project Overview
 
