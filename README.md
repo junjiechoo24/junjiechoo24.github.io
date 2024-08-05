@@ -24,7 +24,7 @@ You can have a listen to the AI generated songs below on YouTube:
 <br><br> <!-- Adding additional spacing -->
 
 
-# [GCP Project to Analyse PvP match Results for Blue Archive](https://github.com/junjiechoo24/discord_bot_pvp)
+# [GCP Project to Analyse PvP Match Results for Blue Archive](https://github.com/junjiechoo24/discord_bot_pvp)
 
 ![Blue Archive PvP Analysis](https://github.com/junjiechoo24/discord_bot_pvp/blob/master/image_2.png?raw=True)
 
