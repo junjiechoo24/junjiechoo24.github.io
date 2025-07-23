@@ -17,10 +17,12 @@
   }
 }
 
-// This rule targets the main grid container ONLY on large screens
-// and forces a wider gap between the two columns.
-@media (min-width: 1em) {
+// This rule redefines the entire two-column grid for large screens.
+@media (min-width: 1em) { // 64em is the breakpoint where the 2-column layout starts
   .page__inner-wrap {
-    grid-column-gap: 10em !important; // Adjust this value as you see fit
+    // The theme's default is "300px 1fr". We are changing it.
+    // This means: a 250px sidebar, a 4em gap, and the rest for main content.
+    grid-template-columns: 250px 1fr;
+    grid-column-gap: 10em; // You can adjust this gap value.
   }
 }
