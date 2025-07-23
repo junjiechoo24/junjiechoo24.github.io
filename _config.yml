@@ -20,11 +20,11 @@ author:
     
     <h3 class="author__bio-title">Education</h3>
     <p style="margin-bottom: 0.5em;">
-      <b>MS Statistics</b>, 2019-2021<br>
+      <b>MS Statistics</b><br>
       <em>University of Chicago</em>
     </p>
     <p>
-      <b>BSc Mathematics & Statistics</b>, 2016-2019<br>
+      <b>BSc Mathematics & Statistics</b><br>
       <em>University of Warwick</em>
     </p>
   location: "Singapore"
