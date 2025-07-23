@@ -6,7 +6,7 @@ description: "Quantitative Researcher | My Journey into Psychology"
 url: "https://junjiechoo24.github.io"
 
 # -- Theme Settings --
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "default"
 
 # -- Author Info in Sidebar --
