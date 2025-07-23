@@ -17,10 +17,8 @@ author:
   name: "Profile"
   bio: |
     Data scientist with a passion for psychology. My mission is to use robust, data-driven methods to help uncover the stories hidden in human behavior.
-
-    <br>
     
-    <h3 class="author__name">Education</h3>
+    <h3 class="author__name" style="margin-top: 1em;">Education</h3>
     <p style="margin-bottom: 0.5em;">
       <b>MS Statistics</b><br>
       <em>University of Chicago</em>
