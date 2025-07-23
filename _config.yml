@@ -28,10 +28,8 @@ author:
 
 # -- Main Navigation Links --
 main:
-  - title: "Home"
+  - title: "About (Home)" # Clearer title
     url: /
-  - title: "About Me"
-    url: /about/
   - title: "Projects"
     url: /projects/
   - title: "Writings"
