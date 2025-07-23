@@ -1,15 +1,17 @@
-/* --- Custom Overrides --- */
+/*
+ * 1. Define our custom variable overrides FIRST.
+ */
 
-/* 1. Widen the main content area for any page with "class: wide" */
-.wide .page__main {
-  @include breakpoint($large) {
-    max-width: 2048px; // Your preferred width
-  }
-}
+// Set the maximum width of the content area
+$max-width: 2048px; // You can change this value. 2048px is very wide. Let's try 1024px.
 
-/* 2. Widen the gap between sidebar and main content on large screens */
-@media (min-width: 64em) {
-  .page__inner-wrap {
-    grid-column-gap: 4em !important; /* Adjust this value as needed */
-  }
-}
+// Set the gap between the sidebar and the main content
+$grid-column-gap: 15em; // You can change this value. Let's try 4em.
+
+
+/*
+ * 2. Now, import the theme's styles.
+ * The theme will use our variables above instead of its own defaults.
+ */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
