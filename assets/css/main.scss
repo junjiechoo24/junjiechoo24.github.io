@@ -16,3 +16,9 @@
     max-width: 2048px; // Your preferred width
   }
 }
+
+// Set the width of the sidebar
+$sidebar-width: 200px; // The default is 300px. Let's make it a bit narrower.
+
+// Set the gap between the sidebar and the main content
+$grid-column-gap: 4em; // The default is 1em. Let's make it much wider. You can adjust this value.
