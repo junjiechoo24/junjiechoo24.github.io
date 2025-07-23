@@ -1,8 +1,10 @@
 /* --- Custom Overrides --- */
 
-/* Force a wider margin on the left of the main content on large screens */
-#main.page__content {
+/* Widen the main content area on larger screens */
+.wide {
   @include breakpoint($large) {
-    margin-left: 10em !important;
+    .page__content {
+      max-width: 1024px !important;
+    }
   }
 }
