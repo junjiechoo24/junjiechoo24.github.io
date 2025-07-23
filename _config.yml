@@ -24,6 +24,10 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
+  # This is the section we are re-adding
+  education:
+    - "MS Statistics, University of Chicago"
+    - "BSc Mathematics & Statistics, University of Warwick"
 
 # -- Defaults for Pages --
 # This ensures the author sidebar appears on all pages.
