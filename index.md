@@ -7,7 +7,7 @@ classes: wide
 
 Welcome. This site is a living document of my journey from the tech industry into the world of philosophy and psychological science. It's a space where I document my projects, share reflections on my reading, and explore the ideas that are shaping my path.
 
-It is a portfolio, but it is also a journey of self-discovery made public.
+It is a portfolio, but it is also a journey of self-discovery.
 
 ### A Pivot Towards Meaning
 
