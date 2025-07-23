@@ -33,3 +33,12 @@ defaults:
       type: "pages"
     values:
       show_author_profile: true
+
+# -- Font Settings --
+# Overrides the default theme fonts.
+# Here we're using "Lora" for headings and "Source Sans Pro" for body text.
+google_fonts:
+  - name: "Lora"
+    weights: "400,700,400italic,700italic"
+  - name: "Source Sans Pro"
+    weights: "400,700,400italic,700italic"
