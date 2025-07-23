@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "About Me: My Journey into Psychology"
-permalink: /about/
+permalink: /  <-- Change this to a single slash
 author_profile: true
 ---
 
