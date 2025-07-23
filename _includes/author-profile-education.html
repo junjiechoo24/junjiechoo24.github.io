@@ -1,0 +1,8 @@
+{% if author.education %}
+  <h3 class="author__bio-title">Education</h3>
+  <ul class="author__bio-education">
+    {% for item in author.education %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
