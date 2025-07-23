@@ -13,7 +13,7 @@ minimal_mistakes_skin: "dirt"
 author:
   name: "Profile"
   bio: |
-    Data scientist with a passion for psychology. My mission is to use robust, data-driven methods to help uncover the stories hidden in human behavior.
+    Experienced data professional with a background in statistics and engineering, now pivoting my focus toward research in the psychological sciences. I am passionate about understanding the whys and hows of human behavior.
     
     <h3 class="author__name" style="margin-top: 2em;">Education</h3>
     <p style="margin-bottom: 0.5em;">
@@ -26,9 +26,8 @@ author:
     </p>
   location: "Singapore"
   links:
-    - label: "Email"
+    - label: "junjie.choo2404 (at) hotmail (dot) com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:junjie.choo2404@hotmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/junjiechoo96"
