@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "About Me: My Journey into Psychology"
+class: wide  # <-- This is the new line that activates our CSS
 author_profile: true
 ---
 
