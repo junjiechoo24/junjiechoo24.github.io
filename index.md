@@ -15,13 +15,11 @@ While my career in data engineering was intellectually challenging and rewarding
 
 This search for a more purposeful path led me to philosophy and psychology.
 
-### Intellectual Foundations
-
-My exposure to existentialism came at a pivotal point. What began as an intellectual curiosity soon became a framework for resilience. I found solace in the works of Nietzsche, Camus, and Frankl, each demonstrating how meaning can serve as a foundation for psychological strength. Frankl’s reflections, in particular, resonated with me, reshaping my understanding of adversity.
+My exposure to existential philosophy came at a pivotal point. What began as an intellectual curiosity soon became a framework for resilience. I found solace in the works of Nietzsche, Camus, Sartre, and Frankl, each demonstrating how meaning can serve as a foundation for psychological strength. Frankl’s reflections, in particular, resonated with me, reshaping my understanding of adversity.
 
 > Everything can be taken from a man but one thing: the last of human freedoms - to choose one’s attitude in any given set of circumstances, to choose one's own way.
 
-This philosophical grounding naturally extends to humanistic psychology. I believe that rigorous, data-driven methods can be powerfully combined with a humanistic ethos to explore the mechanisms of growth, self-acceptance, and meaning-making.
+This philosophical grounding naturally extends to mental health and humanistic psychology, which shares existentialism's profound respect for subjective experience and the individual's power to forge their own path. It provides a framework not just for enduring life, but for thriving within it. Humanistic principles that show that individuals can discover their own authentic values and begin to **cultivate a life that is truly worth living.**
 
 ### This Digital Space
 
