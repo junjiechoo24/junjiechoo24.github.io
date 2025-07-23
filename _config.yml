@@ -9,9 +9,9 @@ url: "https://junjiechoo24.github.io"
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "dirt"
 
-# -- Author Info in Sidebar --
+# -- Author Info in Sidebar (SIMPLIFIED FOR DEBUGGING) --
 author:
-  name: "Profile" # Changed from "Profile" to your name
+  name: "Profile"
   bio: "Quantitative researcher applying statistical modeling and data science to the psychological sciences."
   location: "Singapore"
   links:
@@ -24,10 +24,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
-  # New Education section for the sidebar
-  education:
-    - "MS Statistics, University of Chicago"
-    - "BSc Mathematics & Statistics, University of Warwick"
 
 # -- Defaults for Pages --
 # This ensures the author sidebar appears on all pages.
