@@ -11,8 +11,10 @@ minimal_mistakes_skin: "dirt"
 
 # -- Author Info in Sidebar --
 author:
-  name: "Choo Jun Jie"
-  bio: "MS Statistics, University of Chicago. Applying data science to research in psychology."
+  name: "Profile"
+   # Short, powerful bio for the top of the sidebar
+  bio: "Quantitative researcher applying statistical modeling and data science to the psychological sciences."
+  
   location: "Singapore"
   links:
     - label: "Email"
@@ -24,6 +26,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
+      
+  # New Education section for the sidebar
+  education:
+    - "MS Statistics, University of Chicago"
+    - "BSc Mathematics & Statistics, University of Warwick"
 
 # -- Defaults for Pages --
 # This ensures the author sidebar appears on all pages.
