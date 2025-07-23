@@ -2,16 +2,17 @@
 
 # -- Site Settings --
 title: "Choo Jun Jie"
-description: "Quantitative Researcher | My Journey into Psychology"
+description: "Quantitative Researcher | Data Scientist | My Journey into Psychology"
 url: "https://junjiechoo24.github.io"
 
-# -- Theme Settings --
+# -- Theme & Skin --
 theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air" # Let's try a warmer skin. Others: "default", "aqua", "mint"
 
 # -- Author Info in Sidebar --
 author:
   name: "Choo Jun Jie"
+  avatar: "/assets/images/bio-photo.jpg" # This is the path to your photo
   bio: "MS Statistics, University of Chicago. Applying data science to research in psychology."
   location: "Singapore"
   links:
@@ -27,9 +28,20 @@ author:
 
 # -- Main Navigation Links --
 main:
+  - title: "Home"
+    url: /
   - title: "About Me"
     url: /about/
   - title: "Projects"
     url: /projects/
   - title: "Writings"
     url: /writings/
+
+# -- Defaults for Pages --
+# This ensures the author sidebar appears on all pages.
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      show_author_profile: true
