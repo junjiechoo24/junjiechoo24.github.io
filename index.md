@@ -11,7 +11,7 @@ It is a portfolio, but it is also a journey of self-discovery.
 
 ### A Pivot Towards Meaning
 
-While my career in data engineering was intellectually challenging and rewarding, I felt a growing desire to apply my skills to challenges that felt more fundamentally human. This wasn't a sudden decision, but a gradual realization that I wanted my work to contribute to something more meaningful, to understanding and potentially alleviating the struggles inherent in the human condition.
+While my career in data engineering was intellectually challenging and rewarding, I felt a growing desire to apply my skills to challenges that felt more fundamentally human. This wasn't a sudden decision, but a gradual realisation that I wanted my work to contribute to something more meaningful, to understanding and potentially alleviating the struggles inherent in the human condition.
 
 This search for a more purposeful path led me to philosophy and psychology.
 
