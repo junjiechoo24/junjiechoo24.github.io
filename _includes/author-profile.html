@@ -1,0 +1,30 @@
+<div class="author__avatar">
+  {% if author.avatar contains "://" %}
+    <img src="{{ author.avatar }}" alt="{{ author.name }}">
+  {% else %}
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+  {% endif %}
+</div>
+
+<div class="author__content">
+  <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.bio %}
+    <p class="author__bio">{{ author.bio }}</p>
+  {% endif %}
+  
+  <!-- This is our new section -->
+  {% include author-profile-education.html %}
+  
+</div>
+
+<div class="author__urls-wrapper">
+  <button class="btn btn--inverse">Follow</button>
+  <ul class="author__urls social-icons">
+    {% if author.location %}
+      <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</li>
+    {% endif %}
+    {% for link in author.links %}
+      <li><a href="{{ link.url }}"><i class="{{ link.icon | default: 'fas fa-fw fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
