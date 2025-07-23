@@ -7,7 +7,7 @@ url: "https://junjiechoo24.github.io"
 
 # -- Theme & Skin --
 theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "dirt"
 
 # -- Author Info in Sidebar --
 author:
