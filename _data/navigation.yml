@@ -1,0 +1,11 @@
+# _data/navigation.yml
+
+# This file defines the main navigation links for the site.
+
+main:
+  - title: "About Me"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Writings"
+    url: /writings/
