@@ -19,7 +19,7 @@ My exposure to existential philosophy came at a pivotal point. What began as an 
 
 > Everything can be taken from a man but one thing: the last of human freedoms - to choose one’s attitude in any given set of circumstances, to choose one's own way.
 
-![Cover of Man's Search For Meaning](images/man-s-search-for-meaning-1.jpg){: .align-right}
+![Cover of Man's Search For Meaning](images/man-s-search-for-meaning-1.jpg){: .align-right width="300px"}
 
 This philosophical grounding naturally extends to mental health and humanistic psychology. Together, they create a framework not just for enduring life, but for thriving within it, showing how individuals can discover their own authentic values and begin to cultivate a life that is truly worth living.
 
