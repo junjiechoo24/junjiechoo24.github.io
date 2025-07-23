@@ -29,7 +29,7 @@ author:
       url: "https://github.com/junjiechoo24"
   
   # This is the OFFICIAL way to add custom content to the sidebar
-  sidebar_content: |
+  sidebar_intro: |
     <h3 class="author__bio-title">Education</h3>
     <p>
       MS Statistics, University of Chicago<br>
