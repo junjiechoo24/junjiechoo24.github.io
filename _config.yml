@@ -25,15 +25,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
 
-# -- Main Navigation Links --
-main:
-  - title: "About Me"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "Writings"
-    url: /writings/
-
 # -- Defaults for Pages --
 # This ensures the author sidebar appears on all pages.
 defaults:
