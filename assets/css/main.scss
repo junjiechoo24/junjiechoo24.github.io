@@ -18,7 +18,7 @@
 }
 
 // This rule redefines the entire two-column grid for large screens.
-@media (min-width: 1em) { // 64em is the breakpoint where the 2-column layout starts
+@media (min-width: 64em) { // 64em is the breakpoint where the 2-column layout starts
   .page__inner-wrap {
     // The theme's default is "300px 1fr". We are changing it.
     // This means: a 250px sidebar, a 4em gap, and the rest for main content.
