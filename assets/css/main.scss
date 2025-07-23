@@ -1,8 +1,8 @@
 /* --- Custom Overrides --- */
 
-/* Widen the gap between the sidebar and main content on larger screens */
-.page__inner-wrap {
+/* Force a wider margin on the left of the main content on large screens */
+#main.page__content {
   @include breakpoint($large) {
-    grid-column-gap: 50em !important; // Add !important to force the override
+    margin-left: 10em !important;
   }
 }
