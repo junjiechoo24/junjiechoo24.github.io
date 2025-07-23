@@ -1,3 +1,7 @@
+{%- comment -%}
+  Custom author profile override to include an education section.
+{%- endcomment -%}
+
 <div class="author__avatar">
   {% if author.avatar contains "://" %}
     <img src="{{ author.avatar }}" alt="{{ author.name }}">
@@ -7,24 +11,27 @@
 </div>
 
 <div class="author__content">
-  <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.name %}
+    <h3 class="author__name">{{ author.name }}</h3>
+  {% endif %}
   {% if author.bio %}
     <p class="author__bio">{{ author.bio }}</p>
   {% endif %}
-  
-  <!-- This is our new section -->
-  {% include author-profile-education.html %}
-  
 </div>
 
+<!-- This includes the new education section -->
+{% include author-profile-education.html %}
+
 <div class="author__urls-wrapper">
-  <button class="btn btn--inverse">Follow</button>
+  <!-- <button class="btn btn--inverse">Follow</button> <-- The buggy button is now removed -->
   <ul class="author__urls social-icons">
     {% if author.location %}
-      <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</li>
+      <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+      </li>
     {% endif %}
     {% for link in author.links %}
-      <li><a href="{{ link.url }}"><i class="{{ link.icon | default: 'fas fa-fw fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+      <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-fw fa-link' }}" aria-hidden="true"></i><span class="label"> {{ link.label }}</span></a></li>
     {% endfor %}
   </ul>
 </div>
