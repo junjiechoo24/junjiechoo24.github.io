@@ -9,17 +9,23 @@ url: "https://junjiechoo24.github.io"
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "dirt"
 
+# _config.yml
+
 # -- Author Info in Sidebar (Following Official Documentation) --
 author:
-  name: "Choo Jun Jie"
-  # The | allows for multi-line content.
+  name: "Profile"
+  # The | allows for multi-line content with HTML/Markdown.
   bio: |
     Quantitative researcher applying statistical modeling and data science to the psychological sciences.
     
     <h3 class="author__bio-title">Education</h3>
+    <p style="margin-bottom: 0.5em;">
+      <b>MS Statistics</b>, 2019-2021<br>
+      <em>University of Chicago</em>
+    </p>
     <p>
-      MS Statistics, University of Chicago<br>
-      BSc Mathematics & Statistics, University of Warwick
+      <b>BSc Mathematics & Statistics</b>, 2016-2019<br>
+      <em>University of Warwick</em>
     </p>
   location: "Singapore"
   links:
