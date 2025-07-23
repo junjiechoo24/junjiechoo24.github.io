@@ -2,6 +2,7 @@
 layout: single
 title: "About Me: My Journey into Psychology"
 author_profile: true
+classes: wide
 ---
 
 ### From Data Engineering to Psychological Science
