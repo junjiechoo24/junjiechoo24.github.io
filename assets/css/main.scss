@@ -1,8 +1,15 @@
 /* --- Custom Overrides --- */
 
-/* Widen the main content area for any page with "class: wide" */
+/* 1. Widen the main content area for any page with "class: wide" */
 .wide .page__main {
   @include breakpoint($large) {
-    max-width: 2048px; // You can adjust this value
+    max-width: 2048px; // Your preferred width
+  }
+}
+
+/* 2. Widen the gap between sidebar and main content on large screens */
+@media (min-width: 64em) {
+  .page__inner-wrap {
+    grid-column-gap: 4em !important; /* Adjust this value as needed */
   }
 }
