@@ -1,26 +1,33 @@
 <div class="author__avatar">
   {% if author.avatar %}
-    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
   {% endif %}
 </div>
 
 <div class="author__content">
-  <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.name %}
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+  {% endif %}
   {% if author.bio %}
-    <p class="author__bio">{{ author.bio }}</p>
+    <p class="author__bio" itemprop="description">{{ author.bio }}</p>
   {% endif %}
 </div>
 
-<!-- This line is where we will insert our education section -->
+<!-- This includes the new education section -->
 {% include author-profile-education.html %}
 
 <div class="author__urls-wrapper">
   <ul class="author__urls social-icons">
     {% if author.location %}
-      <li><i class="fas fa-fw fa-map-marker-alt"></i> {{ author.location }}</li>
+      <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+      </li>
     {% endif %}
+
     {% for link in author.links %}
-      <li><a href="{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.label }}</a></li>
+      <li itemprop="sameAs">
+        <a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}</a>
+      </li>
     {% endfor %}
   </ul>
 </div>
