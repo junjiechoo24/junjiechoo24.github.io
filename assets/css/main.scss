@@ -1,0 +1,5 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // Import the skin file
+@import "minimal-mistakes"; // Import the rest of the theme
