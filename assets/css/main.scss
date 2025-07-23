@@ -1,10 +1,8 @@
 /* --- Custom Overrides --- */
 
-/* Widen the main content area on larger screens */
-.wide {
+/* Widen the main content area for any page with "class: wide" */
+.wide .page__main {
   @include breakpoint($large) {
-    .page__content {
-      max-width: 1024px !important;
-    }
+    max-width: 2048px; // You can adjust this value
   }
 }
