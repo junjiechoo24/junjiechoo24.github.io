@@ -19,11 +19,11 @@ My exposure to existential philosophy came at a pivotal point. What began as an 
 
 > Everything can be taken from a man but one thing: the last of human freedoms - to choose one’s attitude in any given set of circumstances, to choose one's own way.
 
-This philosophical grounding naturally extends to mental health and humanistic psychology, which shares existentialism's profound respect for subjective experience and the individual's power to forge their own path. It provides a framework not just for enduring life, but for thriving within it. Humanistic principles that show that individuals can discover their own authentic values and begin to **cultivate a life that is truly worth living.**
+This philosophical grounding naturally extends to mental health and humanistic psychology. Together, they create a framework not just for enduring life, but for thriving within it, showing how individuals can discover their own authentic values and begin to cultivate a life that is truly worth living.
 
 ### This Digital Space
 
-Here, I intend to put these ideas into practice. This space will be my open notebook as I transition into this new field. You will find:
+Here, I intend to put these ideas into practice. This space will be my open notebook as I transition into this new field, **serving as both a portfolio of my work and a tool for my own self-actualization.** You will find:
 
 *   **Projects:** My hands-on work applying quantitative methods to psychological data.
 *   **Writings:** Reflections on the books and papers I am reading in psychology, philosophy, and statistics.
