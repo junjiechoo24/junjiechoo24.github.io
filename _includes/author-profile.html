@@ -1,0 +1,26 @@
+<div class="author__avatar">
+  {% if author.avatar %}
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+  {% endif %}
+</div>
+
+<div class="author__content">
+  <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.bio %}
+    <p class="author__bio">{{ author.bio }}</p>
+  {% endif %}
+</div>
+
+<!-- This line is where we will insert our education section -->
+{% include author-profile-education.html %}
+
+<div class="author__urls-wrapper">
+  <ul class="author__urls social-icons">
+    {% if author.location %}
+      <li><i class="fas fa-fw fa-map-marker-alt"></i> {{ author.location }}</li>
+    {% endif %}
+    {% for link in author.links %}
+      <li><a href="{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.label }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
