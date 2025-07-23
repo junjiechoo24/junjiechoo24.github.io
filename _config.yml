@@ -1,26 +1,18 @@
 # _config.yml
 
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-
 # -- Site Settings --
-
 title: "Choo Jun Jie"
-description: "Quantitative Researcher | Data Scientist | My Journey into Psychology"
-url: "https://junjiechoo24.github.io" # your site url
+description: "Quantitative Researcher | My Journey into Psychology"
+url: "https://junjiechoo24.github.io"
 
 # -- Theme Settings --
-
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default"
 
-# -- Author Info --
+# -- Author Info in Sidebar --
 author:
   name: "Choo Jun Jie"
-  avatar: # "/assets/images/bio-photo.jpg" # path to your photo
-  bio: "MS Statistics, University of Chicago. Applying data science and quantitative methods to research in psychology."
+  bio: "MS Statistics, University of Chicago. Applying data science to research in psychology."
   location: "Singapore"
   links:
     - label: "Email"
@@ -33,14 +25,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
 
-# -- Navigation Links --
-#   To create a link to a new page, first add it here, then create the file.
-#   For example, if you add a link to "/projects/", you need to create "projects.md"
-
+# -- Main Navigation Links --
 main:
   - title: "About Me"
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  - title: "Writings"
+    url: /writings/
