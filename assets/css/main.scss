@@ -3,3 +3,12 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // Import the skin file
 @import "minimal-mistakes"; // Import the rest of the theme
+
+/* --- Custom Overrides --- */
+
+/* Widen the gap between the sidebar and main content on larger screens */
+.page__inner-wrap {
+  @include breakpoint($large) {
+    grid-column-gap: 2em; // The theme default is 1em. We are doubling it.
+  }
+}
