@@ -1,7 +1,7 @@
 # _config.yml
 
 # -- Site Settings --
-title: "" # Put your name back here.
+title: "Choo Jun Jie"
 description: "Quantitative Researcher | Data Engineer | My Journey into Psychology"
 url: "https://junjiechoo24.github.io"
 
@@ -9,9 +9,9 @@ url: "https://junjiechoo24.github.io"
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "dirt"
 
-# -- Author Info in Sidebar (SIMPLIFIED FOR DEBUGGING) --
+# -- Author Info in Sidebar --
 author:
-  name: "Profile"
+  name: "Choo Jun Jie"
   bio: "Quantitative researcher applying statistical modeling and data science to the psychological sciences."
   location: "Singapore"
   links:
@@ -24,13 +24,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
-  # This is the section we are re-adding
   education:
     - "MS Statistics, University of Chicago"
     - "BSc Mathematics & Statistics, University of Warwick"
 
 # -- Defaults for Pages --
-# This ensures the author sidebar appears on all pages.
 defaults:
   - scope:
       path: ""
