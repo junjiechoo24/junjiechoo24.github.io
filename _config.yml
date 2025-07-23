@@ -17,6 +17,8 @@ author:
   name: "Profile"
   bio: |
     Data scientist with a passion for psychology. My mission is to use robust, data-driven methods to help uncover the stories hidden in human behavior.
+
+    <br>  # <-- This is the new line we're adding for space
     
     <h3 class="author__name">Education</h3>
     <p style="margin-bottom: 0.5em;">
