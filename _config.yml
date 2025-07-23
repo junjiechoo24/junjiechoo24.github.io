@@ -28,7 +28,7 @@ author:
 
 # -- Main Navigation Links --
 main:
-  - title: "About (Home)" # Clearer title
+  - title: "About Me" # This is now our main landing page
     url: /
   - title: "Projects"
     url: /projects/
