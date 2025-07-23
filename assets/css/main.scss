@@ -3,6 +3,6 @@
 /* Widen the gap between the sidebar and main content on larger screens */
 .page__inner-wrap {
   @include breakpoint($large) {
-    grid-column-gap: 5em !important; // Add !important to force the override
+    grid-column-gap: 50em !important; // Add !important to force the override
   }
 }
