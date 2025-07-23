@@ -16,13 +16,3 @@
     max-width: 2048px; // Your preferred width
   }
 }
-
-// This rule redefines the entire two-column grid for large screens.
-@media (min-width: 64em) { // 64em is the breakpoint where the 2-column layout starts
-  .page__inner-wrap {
-    // The theme's default is "300px 1fr". We are changing it.
-    // This means: a 250px sidebar, a 4em gap, and the rest for main content.
-    grid-template-columns: 25px 1fr;
-    grid-column-gap: 50em; // You can adjust this gap value.
-  }
-}
