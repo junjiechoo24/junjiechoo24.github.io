@@ -25,7 +25,7 @@
 
 .project-card-single-column img {
   /* Do NOT force the width to 100% */
-  max-width: 100%; /* Ensure the image never overflows its container on small screens */
+  max-width: 50%; /* Ensure the image never overflows its container on small screens */
   height: auto; /* Maintain aspect ratio */
   display: inline-block; /* Allows the image to be centered */
   
