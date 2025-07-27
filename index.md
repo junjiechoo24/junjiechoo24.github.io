@@ -31,6 +31,6 @@ Here, I intend to put these ideas into practice. This space will be my open note
 
 *   **Projects:** Projects relating to tech, psychology, or whatever, that sparked my curiosity.
 *   **Writings:** Reflections on the books and papers I am reading in psychology, philosophy, and statistics.
-*   **Photography:** Occasional works of art that, for me, capture a particular perspective on the world.
+*   **Gallery:** Occasional photos that, for me, capture a particular perspective on the world.
 
 Thank you for joining me on this journey.
