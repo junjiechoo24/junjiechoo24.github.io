@@ -54,4 +54,4 @@ google_fonts:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:title/ # <-- This is the corrected line
