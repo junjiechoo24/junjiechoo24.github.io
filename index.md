@@ -4,7 +4,7 @@ author_profile: true
 classes: wide
 ---
 
-<h2 style="margin-top: -1rem;">My Journey into Psychology</h2>
+<h2 style="margin-top: -0.5rem;">My Journey into Psychology</h2>
 
 Welcome. This site is a living document of my journey from the tech industry into the world of philosophy and psychological science. It's a space where I document my projects, share reflections on my reading, and explore the ideas that are shaping my path.
 
