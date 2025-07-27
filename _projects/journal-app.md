@@ -16,6 +16,8 @@ Email: testuser@gmail.com
 <br>
 Password: journalapptest
 
+<!--more-->
+
 <img width="1547" height="1112" alt="image" src="https://github.com/user-attachments/assets/c9af412b-047a-4a45-8546-7969eec9dac9" />
 
 ## Core Features & Methodology
