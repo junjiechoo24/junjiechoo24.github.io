@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Journal App: N=1 research to investigate correlations between journaling and psychological well-being over time"
+slug: journal-app # <-- This is the new, crucial line
 author_profile: true
 classes: wide
 header:
