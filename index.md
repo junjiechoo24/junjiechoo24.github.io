@@ -7,7 +7,8 @@ classes: wide
 
 Welcome. This site is a living document of my journey from the tech industry into the world of philosophy and psychological science. It's a space where I document my projects, share reflections on my reading, and explore the ideas that are shaping my path.
 
-<br>
+<p style="margin-bottom: 0.5rem;"></p>
+
 ## Why I am Pivoting
 
 While my career in data engineering was intellectually challenging and rewarding, I felt a growing desire to apply my skills to challenges that felt more fundamentally human. This wasn't a sudden decision, but a gradual realisation that I wanted my work to contribute to something more meaningful, to understanding and potentially alleviating the struggles inherent in the human condition.
@@ -22,7 +23,8 @@ My exposure to existential philosophy came at a pivotal point. What began as an 
 
 This philosophical grounding naturally extends to mental health and humanistic psychology. Together, they create a framework not just for enduring life, but for thriving within it, showing how individuals can discover their own authentic values and begin to cultivate a life that is truly worth living.
 
-<br>
+<p style="margin-bottom: 0.5rem;"></p>
+
 ## This Digital Space
 
 Here, I intend to put these ideas into practice. This space will be my open notebook as I transition into this new field. You will find:
