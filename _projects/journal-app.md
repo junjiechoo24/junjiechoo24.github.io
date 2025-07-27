@@ -1,5 +1,8 @@
 ---
+layout: single
 title: "Journal App: N=1 research to investigate correlations between journaling and psychological well-being over time"
+author_profile: true
+classes: wide
 header:
   image_path: "https://github.com/user-attachments/assets/1786dac8-87af-4eac-b795-b817e08a80cf"
   alt: "Screenshot of the Journal App"
