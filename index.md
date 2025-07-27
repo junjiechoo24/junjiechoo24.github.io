@@ -33,4 +33,4 @@ Here, I intend to put these ideas into practice. This space will be my open note
 *   **Writings:** Reflections on the books and papers I am reading in psychology, philosophy, and statistics.
 *   **Gallery:** Occasional photos that, for me, capture a particular perspective on the world.
 
-Thank you for joining me on this journey.
+Thank you for reading this far!
