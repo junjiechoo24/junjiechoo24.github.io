@@ -1,9 +1,10 @@
 ---
 layout: single
-title: "My Journey into Psychology"
 author_profile: true
 classes: wide
 ---
+
+## My Journey into Psychology
 
 Welcome. This site is a living document of my journey from the tech industry into the world of philosophy and psychological science. It's a space where I document my projects, share reflections on my reading, and explore the ideas that are shaping my path.
 
