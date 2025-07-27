@@ -13,13 +13,12 @@ Projects relating to tech, psychology, or whatever, that sparked my curiosity.
 {% for project in site.projects %}
 
 <div class="project-card-single-column">
-
   {% if project.header.image_path %}
     <a href="{{ project.url | relative_url }}">
       {% if project.header.image_path contains "://" %}
-        <img src="{{ project.header.image_path }}" alt="{{ project.header.alt }}">
+        <img src="{{ project.header.image_path }}" alt="{{ project.header.alt }}" style="width: auto; max-width: 400px;">
       {% else %}
-        <img src="{{ project.header.image_path | relative_url }}" alt="{{ project.header.alt }}">
+        <img src="{{ project.header.image_path | relative_url }}" alt="{{ project.header.alt }}" style="width: auto; max-width: 400px;">
       {% endif %}
     </a>
   {% endif %}
