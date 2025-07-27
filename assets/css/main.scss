@@ -32,7 +32,7 @@
 /* This is the new, crucial rule that fixes the image size */
 .project-card img {
   width: 25%; /* Make the image 100% of its container's width */
-  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  height: 25%; /* Let the height adjust automatically to maintain aspect ratio */
   
   /* Some extra polish */
   border-radius: 8px;
