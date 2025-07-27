@@ -6,15 +6,29 @@ author_profile: true
 classes: wide
 ---
 
-Here are some of the projects I've been developing as I explore the intersection of data, technology, and psychology.
+Projects relating to tech, psychology, or whatever, that sparked my curiosity.
 
 ---
 
 {% for project in site.projects %}
-  ## {{ project.title }}
+<div class="project-card">
+  {% if project.header.image_path %}
+    <a href="{{ project.url | relative_url }}">
+      
+      {% comment %}<!-- This is the new, smart logic -->{% endcomment %}
+      {% if project.header.image_path contains "://" %}
+        <img src="{{ project.header.image_path }}" alt="{{ project.header.alt }}">
+      {% else %}
+        <img src="{{ project.header.image_path | relative_url }}" alt="{{ project.header.alt }}">
+      {% endif %}
 
-  {{ project.excerpt }}
-
-  <a href="{{ project.url | relative_url }}" class="btn btn--info">Read More...</a>
-  <hr>
+    </a>
+  {% endif %}
+  <div class="project-content">
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+    <p>{{ project.excerpt }}</p>
+    <a href="{{ project.url | relative_url }}" class="btn btn--info">Read More...</a>
+  </div>
+</div>
+<hr>
 {% endfor %}
