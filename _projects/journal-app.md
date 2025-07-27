@@ -1,16 +1,28 @@
 ---
 title: "Journal App: N=1 research to investigate correlations between journaling and psychological well-being over time"
+header:
+  image_path: "https://github.com/user-attachments/assets/1786dac8-87af-4eac-b795-b817e08a80cf"
+  alt: "Screenshot of the Journal App"
+excerpt_separator: "<!--more-->"
 ---
 
 This is a full-stack web application I designed to track my personal psychological well-being scores and how it correlates with journaling, it is essentially a mixed-methods N=1 study on myself. It combines qualitative journal reflection entries with quantitative, validated psychological scales, e.g: Flourishing Scale (Diener et al., 2010) to track and analyse the drivers of personal well-being.
 
+<!--more-->
+
 [View Live Application](https://6885ec796d69eab0ccece44d--glowing-dolphin-ed108f.netlify.app/){: .btn .btn--success}
+
+<!--more-->
 
 Feel free to test it out with these credentials:
 
+<!--more-->
+
 Email: testuser@gmail.com
+<!--more-->
 <br>
 Password: journalapptest
+<!--more-->
 
 <img width="1547" height="1112" alt="image" src="https://github.com/user-attachments/assets/c9af412b-047a-4a45-8546-7969eec9dac9" />
 
