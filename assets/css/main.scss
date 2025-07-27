@@ -17,3 +17,9 @@
   }
 }
 
+.project-card-single-column img {
+  /* --- This is the new centering logic --- */
+  display: block;         /* Treat the image as a block, not text */
+  margin-left: auto;      /* Automatically calculate the left margin */
+  margin-right: auto;     /* Automatically calculate the right margin */
+}
