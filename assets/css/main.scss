@@ -16,3 +16,19 @@
     max-width: 2048px; // Your preferred width
   }
 }
+
+/* --- Custom Project Card Styles --- */
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr; /* Default for mobile */
+  gap: 2em;
+  margin-bottom: 2em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: 300px 1fr; /* Two columns on larger screens */
+  }
+}
+.project-card img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
