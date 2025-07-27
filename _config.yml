@@ -35,10 +35,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/junjiechoo24"
-
-# ... (the rest of your config file)
-
-
+      
 # -- Defaults for Pages --
 defaults:
   - scope:
@@ -53,3 +50,8 @@ google_fonts:
     weights: "400,700,400italic,700italic"
   - name: "Source Sans Pro"
     weights: "400,700,400italic,700italic"
+    
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
