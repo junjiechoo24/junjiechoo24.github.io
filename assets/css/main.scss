@@ -18,23 +18,28 @@
 }
 
 /* --- Custom Project Card Styles --- */
-.project-card {
-  display: grid;
-  grid-template-columns: 1fr; /* Default for mobile */
-  gap: 2em;
+.project-card-single-column {
+  text-align: center; /* Center all the text inside */
   margin-bottom: 2em;
-
-  @include breakpoint($medium) {
-    grid-template-columns: 300px 1fr; /* Two columns on larger screens */
-  }
 }
 
-/* This is the new, crucial rule that fixes the image size */
-.project-card img {
-  width: 100%; /* Make the image 100% of its container's width */
-  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+.project-card-single-column img {
+  /* Do NOT force the width to 100% */
+  max-width: 100%; /* Ensure the image never overflows its container on small screens */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Allows the image to be centered */
   
   /* Some extra polish */
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 2em; /* Add some space below the image */
+}
+
+.project-card-single-column a:hover img {
+  transform: scale(1.03); /* A subtle zoom effect on hover */
+}
+
+.project-card-single-column h2 {
+  margin-top: 0;
 }
