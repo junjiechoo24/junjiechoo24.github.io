@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Journal App: N=1 research to investigate correlations between journaling and psychological well-being over time"
-slug: journal-app # <-- This is the new, crucial line
+slug: journal-app 
 author_profile: true
 classes: wide
 header:
@@ -10,7 +10,7 @@ header:
 excerpt_separator: "<!--more-->"
 ---
 
-This is a full-stack web application I designed to track my personal psychological well-being scores and how it correlates with journaling, it is essentially a mixed-methods N=1 study on myself. It combines qualitative journal reflection entries with quantitative, validated psychological scales, e.g: Flourishing Scale (Diener et al., 2010) to track and analyse the drivers of personal well-being.
+This is a full-stack web application I designed to track my personal psychological well-being scores and how it correlates with journaling, it is essentially a mixed-methods N=1 study on myself. It combines qualitative journal reflection entries with quantitative, validated psychometric scales, e.g: Flourishing Scale (Diener et al., 2010) to track and analyse the drivers of personal well-being.
 
 [View Live Application](https://6885ec796d69eab0ccece44d--glowing-dolphin-ed108f.netlify.app/){: .btn .btn--success}
 
