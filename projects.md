@@ -12,7 +12,7 @@ classes: wide
 
 This is a full-stack web application I designed to track my personal psychological well-being scores and how it correlates with journaling, it is essentially a mixed-methods N=1 study on myself. It combines qualitative journal reflection entries with quantitative, validated psychological scales, e.g: Flourishing Scale (Diener et al., 2010) to track and analyse the drivers of personal well-being.
 
-<a href="[View Live Application](https://6885ec796d69eab0ccece44d--glowing-dolphin-ed108f.netlify.app/)" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://6885ec796d69eab0ccece44d--glowing-dolphin-ed108f.netlify.app/" class="btn" target="_blank" rel="noopener noreferrer">View Live Application</a>
 
 Feel free to test it out with these credentials:
 
