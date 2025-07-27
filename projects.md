@@ -16,9 +16,9 @@ Projects relating to tech, psychology, or whatever, that sparked my curiosity.
   {% if project.header.image_path %}
     <a href="{{ project.url | relative_url }}">
       {% if project.header.image_path contains "://" %}
-        <img src="{{ project.header.image_path }}" alt="{{ project.header.alt }}" style="width: auto; max-width: 600px;">
+        <img src="{{ project.header.image_path }}" alt="{{ project.header.alt }}" style="display: block; margin-left: auto; margin-right: auto; max-width: 600px; width: auto;">
       {% else %}
-        <img src="{{ project.header.image_path | relative_url }}" alt="{{ project.header.alt }}" style="width: auto; max-width: 600px;">
+        <img src="{{ project.header.image_path | relative_url }}" alt="{{ project.header.alt }}" style="display: block; margin-left: auto; margin-right: auto; max-width: 600px; width: auto;">
       {% endif %}
     </a>
   {% endif %}
