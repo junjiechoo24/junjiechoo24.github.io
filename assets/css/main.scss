@@ -31,8 +31,8 @@
 
 /* This is the new, crucial rule that fixes the image size */
 .project-card img {
-  width: 50%; /* Make the image 100% of its container's width */
-  height: 50%; /* Let the height adjust automatically to maintain aspect ratio */
+  width: 100%; /* Make the image 100% of its container's width */
+  height: 100%; /* Let the height adjust automatically to maintain aspect ratio */
   
   /* Some extra polish */
   border-radius: 8px;
